@@ -1,0 +1,59 @@
+
+*{
+    font-family: Verdana;
+}
+body{
+    background-color:#DEDEDE;
+}
+nav{
+    text-align: right;
+}
+nav ul{
+    list-style:none;
+}
+nav ul li{
+    margin-right:20px;
+    display:inline;
+}
+section{
+    justify-content: center;
+}
+.tarjeta{
+    background-color:rgb(255, 251, 127);
+    width: 750px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius:10px;
+    padding: 10px;
+    box-shadow:10px 10px 5px -3px rgba(0,0,0,0.75);;
+}
+input, select, text {
+
+    width: 100%;
+    font-size: 150%;
+}
+from div{
+    text-align: left;
+    /*margin:20px 30px 10px 40px; arriba,derecha,abajo,izquierda*/
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+a{
+    color:black;
+    text-decoration:none;
+
+}
+a:visited{
+color:red;
+}
+
+.inputError {
+    /*border-color:red;
+    font:200%*/
+    box-shadow: 0px 0px 6px 2px rgb(255, 0, 0);
+}
